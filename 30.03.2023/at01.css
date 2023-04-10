@@ -1,0 +1,22 @@
+.cor{background-color: darkgreen;
+    color: white;
+    text-align: center
+}   
+table{
+    width:500px
+}
+
+    
+    
+td{
+    border: solid 1px black;
+    border-radius: 10px 10px 0 0;
+    
+
+}
+.cinza{
+    background-color: rgb(187, 181, 181);
+    color: green;
+    text-align: left
+}
+    

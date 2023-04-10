@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    
+</head>
+<body>
+    <form>
+        <fieldset>  
+             
+            <legend>Cadastro</legend>
+        <label for="cNome">Nome</label>
+        <input type="text" id="cNome" required>
+        <br><br>
+
+        <p>Onde você mora?</p>
+        <input type="radio">
+        <label for="">Cidade</label> <br>
+        <input type="radio">
+        <label for="">Interior</label> <br><br>
+        </fieldset>
+        <p>Qual meio de transporte você usa?</p>
+        <input type="checkbox">
+        <label for="">Bicicleta</label><br>
+        <input type="checkbox">
+        <label for="">Carro</label><br>
+        <input type="checkbox">
+        <label for="">Metrô</label><br>
+        <input type="checkbox">
+        <label for="">Ônibus</label><br><br>
+
+        <label for="">Selecione seu time</label><br>
+        <select name="" id="">
+            <option value="1">Corinthians</option>
+            <option value="2">Santos</option>
+            <option value="3" selected>São Paulo</option>
+            <option value="4">Palmeiras</option>
+        </select><br><br>
+    
+
+        <label>Escolha sua cidade</label>
+        
+        <input autocomplete="on" list="cidades">
+
+        <datalist id="cidades"> 
+            <option value="São Paulo"></option>
+            <option value="São Sebastião"></option>
+            <option value="São Bernado"></option>
+            <option value="Guaruçhos"></option>
+        </datalist> <br>
+
+        0 <input type="range">
+        100<br>
+
+        <textarea cols="20" rows="3"></textarea>
+
+        
+       
+       
+        <input type="submit" value="Encaminhar">
+    </form>    
+</body>
+</html>

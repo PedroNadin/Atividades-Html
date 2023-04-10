@@ -1,0 +1,20 @@
+.tituloPrincipal{
+    background-color: darkgreen;
+    color: white;
+    text-align: center
+}
+.titulohtml{
+    text-align: right;
+}
+.texto{
+    text-align: justify;
+}
+a{
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+
+}
+a:hover{
+    color: red;
+    text-decoration-line: underline;
+}
